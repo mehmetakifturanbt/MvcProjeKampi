@@ -15,6 +15,11 @@ namespace DataAccessLayer.Concrete.Repositories
         private Context c = new Context();
         DbSet<Writer> _object;
 
+        public Writer Get(Expression<Func<Writer, bool>> filter)
+        {
+            throw new NotImplementedException();
+        }
+
         public void Delete(Writer p)
         {
             throw new NotImplementedException();
