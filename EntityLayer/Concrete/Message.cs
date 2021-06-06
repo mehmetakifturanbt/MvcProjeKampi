@@ -9,6 +9,7 @@ namespace EntityLayer.Concrete
 {
     public class Message
     {
+        
         [Key]
         public int MessageId { get; set; }
 
@@ -22,5 +23,7 @@ namespace EntityLayer.Concrete
         public string Subject { get; set; }
         public string MessageContent { get; set; }
         public DateTime MessageDate { get; set; }
+
+        public bool isDraft { get; set; }
     }
 }
