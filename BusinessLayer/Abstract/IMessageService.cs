@@ -7,7 +7,7 @@ using EntityLayer.Concrete;
 
 namespace BusinessLayer.Abstract
 {
-    interface IMessageFileService
+    interface IMessageService
     {
         List<Message> GetListInbox();
         List<Message> GetListSendbox();
